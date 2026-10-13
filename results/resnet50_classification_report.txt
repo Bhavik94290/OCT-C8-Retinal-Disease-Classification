@@ -1,0 +1,19 @@
+Model: RESNET50
+Best Validation Accuracy: 97.93%
+Test Accuracy: 97.89%
+
+Classification Report
+              precision    recall  f1-score   support
+
+         AMD     1.0000    1.0000    1.0000       350
+         CNV     0.9465    0.9600    0.9532       350
+         CSR     1.0000    1.0000    1.0000       350
+         DME     0.9764    0.9457    0.9608       350
+          DR     1.0000    1.0000    1.0000       350
+      DRUSEN     0.9620    0.9400    0.9509       350
+          MH     1.0000    1.0000    1.0000       350
+      NORMAL     0.9478    0.9857    0.9664       350
+
+    accuracy                         0.9789      2800
+   macro avg     0.9791    0.9789    0.9789      2800
+weighted avg     0.9791    0.9789    0.9789      2800

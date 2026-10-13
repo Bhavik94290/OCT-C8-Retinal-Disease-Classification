@@ -1,0 +1,29 @@
+Model,Condition,Accuracy (%)
+RESNET50,Original,97.89
+RESNET50,Gaussian Noise,81.18
+RESNET50,Gaussian Blur,36.11
+RESNET50,Brightness +20%,97.86
+RESNET50,Brightness -20%,97.68
+RESNET50,Contrast +20%,97.89
+RESNET50,Contrast -20%,97.68
+VGG19,Original,97.93
+VGG19,Gaussian Noise,95.82
+VGG19,Gaussian Blur,40.57
+VGG19,Brightness +20%,97.71
+VGG19,Brightness -20%,97.82
+VGG19,Contrast +20%,97.82
+VGG19,Contrast -20%,97.79
+DENSENET121,Original,98.0
+DENSENET121,Gaussian Noise,88.96
+DENSENET121,Gaussian Blur,53.36
+DENSENET121,Brightness +20%,98.04
+DENSENET121,Brightness -20%,97.68
+DENSENET121,Contrast +20%,98.0
+DENSENET121,Contrast -20%,97.86
+PROPOSED,Original,97.43
+PROPOSED,Gaussian Noise,75.96
+PROPOSED,Gaussian Blur,29.46
+PROPOSED,Brightness +20%,97.46
+PROPOSED,Brightness -20%,97.29
+PROPOSED,Contrast +20%,97.39
+PROPOSED,Contrast -20%,97.43

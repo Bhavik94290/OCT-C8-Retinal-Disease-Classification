@@ -1,0 +1,24 @@
+OCT-C8 ROBUSTNESS EVALUATION
+======================================================================
+
+Condition    Original  Gaussian Noise  Gaussian Blur  Brightness +20%  Brightness -20%  Contrast +20%  Contrast -20%
+Model                                                                                                               
+DENSENET121     98.00           88.96          53.36            98.04            97.68          98.00          97.86
+PROPOSED        97.43           75.96          29.46            97.46            97.29          97.39          97.43
+RESNET50        97.89           81.18          36.11            97.86            97.68          97.89          97.68
+VGG19           97.93           95.82          40.57            97.71            97.82          97.82          97.79
+
+BEST MODEL FOR EACH CONDITION
+============================================================
+Original: DENSENET121 (98.00%)
+Gaussian Noise: VGG19 (95.82%)
+Gaussian Blur: DENSENET121 (53.36%)
+Brightness +20%: DENSENET121 (98.04%)
+Brightness -20%: VGG19 (97.82%)
+Contrast +20%: DENSENET121 (98.00%)
+Contrast -20%: DENSENET121 (97.86%)
+
+OVERALL ROBUSTNESS
+============================================================
+Most robust model: DENSENET121
+Average corrupted-image accuracy: 88.98%

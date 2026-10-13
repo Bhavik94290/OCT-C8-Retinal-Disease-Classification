@@ -1,0 +1,19 @@
+Model: PROPOSED
+Best Validation Accuracy: 97.43%
+Test Accuracy: 97.43%
+
+Classification Report
+              precision    recall  f1-score   support
+
+         AMD     0.9972    1.0000    0.9986       350
+         CNV     0.9433    0.9514    0.9474       350
+         CSR     1.0000    1.0000    1.0000       350
+         DME     0.9516    0.9543    0.9529       350
+          DR     1.0000    0.9943    0.9971       350
+      DRUSEN     0.9507    0.9371    0.9439       350
+          MH     0.9972    1.0000    0.9986       350
+      NORMAL     0.9544    0.9571    0.9558       350
+
+    accuracy                         0.9743      2800
+   macro avg     0.9743    0.9743    0.9743      2800
+weighted avg     0.9743    0.9743    0.9743      2800

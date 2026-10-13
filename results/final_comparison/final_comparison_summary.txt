@@ -1,0 +1,13 @@
+OCT-C8 FINAL MODEL COMPARISON
+============================================================
+
+          Model  Accuracy  Precision  Recall  F1-Score
+       ResNet50     97.89      97.91   97.89     97.89
+          VGG19     97.93      97.93   97.93     97.93
+    DenseNet121     98.00      98.02   98.00     98.00
+Proposed OCTNet     97.43      97.43   97.43     97.43
+
+Best Accuracy Model: DenseNet121
+Best Accuracy: 98.00%
+Best F1 Model: DenseNet121
+Best F1-Score: 98.00%

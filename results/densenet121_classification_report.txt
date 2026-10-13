@@ -1,0 +1,19 @@
+Model: DENSENET121
+Best Validation Accuracy: 98.00%
+Test Accuracy: 98.00%
+
+Classification Report
+              precision    recall  f1-score   support
+
+         AMD     1.0000    1.0000    1.0000       350
+         CNV     0.9623    0.9486    0.9554       350
+         CSR     0.9972    1.0000    0.9986       350
+         DME     0.9853    0.9571    0.9710       350
+          DR     1.0000    1.0000    1.0000       350
+      DRUSEN     0.9337    0.9657    0.9494       350
+          MH     1.0000    1.0000    1.0000       350
+      NORMAL     0.9631    0.9686    0.9658       350
+
+    accuracy                         0.9800      2800
+   macro avg     0.9802    0.9800    0.9800      2800
+weighted avg     0.9802    0.9800    0.9800      2800

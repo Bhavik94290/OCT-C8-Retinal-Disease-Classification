@@ -1,0 +1,35 @@
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Virtual environments
+venv/
+env/
+bhavik_env/
+.venv/
+
+# Dataset
+dataset/
+data/
+
+# Model checkpoints
+checkpoints/
+*.pth
+*.pt
+*.ckpt
+*.h5
+*.keras
+
+# Generated results
+results/
+gradcam/
+
+# Secrets and local configuration
+.env
+*.log
+
+# IDE files
+.vscode/
+.idea/

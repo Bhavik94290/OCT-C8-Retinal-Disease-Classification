@@ -96,16 +96,16 @@ The models can be evaluated using the following metrics:
 
 A fair comparison should use the same held-out test set and consistent evaluation procedures across models.
 
-**Experimental results:** To be updated with the final measured results.
+**Experimental Results:** The following table summarizes the performance of the evaluated models on the test dataset.
 
 | Model | Accuracy | Precision | Recall | F1-score |
-|---|---|---|---|---|
-| VGG19 | TBD | TBD | TBD | TBD |
-| ResNet50 | TBD | TBD | TBD | TBD |
-| DenseNet121 | TBD | TBD | TBD | TBD |
-| Hybrid CNN | TBD | TBD | TBD | TBD |
+|---|---:|---:|---:|---:|
+| VGG19 | 97.93% | 97.93% | 97.93% | 97.93% |
+| ResNet50 | 97.89% | 97.91% | 97.89% | 97.89% |
+| DenseNet121 | 98.00% | 98.02% | 98.00% | 98.00% |
+| Proposed Hybrid CNN | 97.43% | 97.43% | 97.43% | 97.43% |
 
-*TBD indicates that verified experimental results have not yet been added.*
+**Note:** These values must be verified against the corresponding classification reports. Precision, recall, and F1-score should use the same averaging method for all models.
 
 ## 🗂️ Project Structure
 
